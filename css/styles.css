@@ -197,7 +197,6 @@ body {
   background-size: cover;
   max-width: 1600px;
   margin: 0 auto;
-  /* height: 600px; */
 }
 
 .main-section {
@@ -239,12 +238,7 @@ body {
 
 /* ==========Наші переваги================= */
 .section-our-advantages {
-  /* height: 98px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: stretch;
-  justify-content: baseline; */
+
 }
 
 .section-text {
@@ -256,8 +250,6 @@ body {
 }
 
 .content-our-advantages {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -265,7 +257,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 270px; */
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -523,11 +514,6 @@ body {
   fill: var(--white);
 }
 
-/* .social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{
-  fill: var(--white);
-} */
-
 /* ================== */
 
 /*=============== Блок портфоліо ================*/
@@ -592,8 +578,7 @@ body {
 
 .work-portfolio-link:hover,
 .work-portfolio-link:focus {
-  border: 1px solid #eeeeee;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
